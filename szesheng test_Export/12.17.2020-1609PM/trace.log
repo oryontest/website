@@ -1,0 +1,92 @@
+[2020-12-17 10:40:35.9103][7][Information]: Export has started. Status
+[2020-12-17 10:40:35.9103][1][Information]: UnifiedExportTool engine version: 15.20.1771.000, CLR version: 4.0.30319.42000.
+[2020-12-17 10:40:35.9205][1][Information]: Current local time: 17-12-2020 04:10:35 PM, current UTC time: 17-12-2020 10:40:35 AM.
+[2020-12-17 10:40:35.9205][1][Information]: OS version: Microsoft Windows NT 6.2.9200.0, processor count: 4, x64: True, working set: 107356160.
+[2020-12-17 10:40:35.9234][1][Information]: Export name: szesheng test_Export.
+[2020-12-17 10:40:35.9335][1][Information]: ConstantProvider..Ctor: Registry not found for constants
+[2020-12-17 10:40:37.8206][5][Information]: Start progress controller loop.
+[2020-12-17 10:40:39.1190][1][Information]: Effective downloader concurrency: 32
+[2020-12-17 10:40:39.1240][6][Information]: Start result recorder loop.
+[2020-12-17 10:40:48.0835][1][Information]: Source store id: 241e3f17-3b0c-437e-51db-08d8a27776a1, job run id: 241e3f17-3b0c-437e-51db-08d8a27776a1, scenario: General, store version: 2015-09-25, create time 17-12-2020 10:35:25 AM.
+[2020-12-17 10:40:48.8252][10][Information]: Requesting data/3513ca47-162b-4d68-b848-810aaab73119/Root.meta from Azure storage
+[2020-12-17 10:40:49.2158][6][Information]: Completed server task statistics - id: 3513ca47-162b-4d68-b848-810aaab73119, workload: Exchange, custodian: szesheng.lim@attika.com.sg, displayName: szesheng.lim@attika.com.sg, identifier: szesheng.lim@attika.com.sg, contentFormat: FxStream, archiveFormat: SingleFolderPst, mailboxLocationType: Primary, completeTime: 17-12-2020 10:35:44 AM, estimatedCount: 13, estimatedSize: 3209459, transferredCount: 13, transferredSize: 3209459, failureCode: 0, failureSide: , failureType: , failureDetails: , executingServer: TY2PR06MB3311.apcprd06.prod.outlook.com.
+[2020-12-17 10:40:50.0393][1][Information]: Server job tracker scan status: AnyTaskHasScheduled: True; AnyTaskHasStarted: True; AnyTaskInProgress: False; AnyTaskHasCompleted: True; AllTasksHaveCompleted: True; IsCancelled: False; exportStarted: False.
+[2020-12-17 10:40:50.0638][1][Information]: Found 1 server tasks.
+[2020-12-17 10:40:50.0638][1][Information]: Kicking off server task szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119.
+[2020-12-17 10:40:50.1169][7][Information]: Start exporting (szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119).
+[2020-12-17 10:40:50.1169][7][Information]: Start enumerating items for szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119.
+[2020-12-17 10:40:50.3223][5][Information]: Start item exporter loop for szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119.
+[2020-12-17 10:40:50.3293][6][Information]: Downloading for data/3513ca47-162b-4d68-b848-810aaab73119/FLDRBatch/BATCH0000/MSG0.batch.
+[2020-12-17 10:40:50.3893][7][Information]: Finish enumerating items for szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119, total items enumerated: 1, time elapsed: 00:00:00.2092993.
+[2020-12-17 10:40:52.0579][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG0.meta. (1_1/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:52.0658][7][Information]: Initializing searchable item PST writer for szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119.
+[2020-12-17 10:40:52.0715][7][Information]: PstWriter.EnterDataContext: 
+[2020-12-17 10:40:52.0843][7][Information]: PstWriter.CreatePstSession: Creating PST session for PST file 'C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\Exchange\Exchange.pst'
+[2020-12-17 10:40:52.6551][7][Information]: PstWriter.CreatePstFile: Closing PST session after initializing empty file.
+[2020-12-17 10:40:52.8793][7][Information]: PstWriter.CreatePstFile: PST session closed
+[2020-12-17 10:40:52.8823][7][Information]: PstWriter.CreatePstSession: Creating PST session for PST file 'C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\Exchange\Exchange.pst'
+[2020-12-17 10:40:52.8833][7][Information]: PstWriter.EnterDataContext: PST session created.
+[2020-12-17 10:40:52.8933][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.5082][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG0.meta
+[2020-12-17 10:40:53.5521][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG1.meta. (1_2/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.5521][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.7312][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG1.meta
+[2020-12-17 10:40:53.7322][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG2.meta. (1_3/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.7322][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.7839][5][Information]: TracerScope.Enter: Initializing serialization file: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.xml
+[2020-12-17 10:40:53.7919][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG2.meta
+[2020-12-17 10:40:53.8049][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG3.meta. (1_4/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.8049][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.8148][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG3.meta
+[2020-12-17 10:40:53.8158][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG0.meta. (1_5/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.8158][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.8608][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG0.meta
+[2020-12-17 10:40:53.8618][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG1.meta. (1_6/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.8618][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.8881][5][Information]: TracerScope.Exit (103 ms): Initializing serialization file: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.xml
+[2020-12-17 10:40:53.9534][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG1.meta
+[2020-12-17 10:40:53.9534][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG2.meta. (1_7/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:53.9534][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:53.9674][5][Information]: TracerScope.Enter: Initializing serialization file: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.relationships.xml
+[2020-12-17 10:40:53.9683][5][Information]: TracerScope.Exit (0 ms): Initializing serialization file: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.relationships.xml
+[2020-12-17 10:40:54.0816][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG2.meta
+[2020-12-17 10:40:54.0826][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG3.meta. (1_8/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.0826][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1120][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR4828140275517882369/BATCH0000/MSG3.meta
+[2020-12-17 10:40:54.1120][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG4.meta. (1_9/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.1120][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1150][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG4.meta
+[2020-12-17 10:40:54.1150][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG5.meta. (1_10/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.1150][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1390][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG5.meta
+[2020-12-17 10:40:54.1390][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG6.meta. (1_11/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.1390][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1430][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR864972603431845889/BATCH0000/MSG6.meta
+[2020-12-17 10:40:54.1430][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR937030197469773825/BATCH0000/MSG0.meta. (1_12/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.1430][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1571][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR937030197469773825/BATCH0000/MSG0.meta
+[2020-12-17 10:40:54.1581][7][Information]: Processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR937030197469773825/BATCH0000/MSG1.meta. (1_13/1 from szesheng.lim@attika.com.sg)
+[2020-12-17 10:40:54.1581][7][Information]: PstWriter.WriteDataBatch: Writing data batch for mailbox '', item count: 1
+[2020-12-17 10:40:54.1601][7][Information]: Finish processing item metadata/3513ca47-162b-4d68-b848-810aaab73119/FLDR937030197469773825/BATCH0000/MSG1.meta
+[2020-12-17 10:40:54.1714][7][Information]: Finish item exporter loop for szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119, time elapsed: 00:00:02.1129184.
+[2020-12-17 10:40:54.1733][7][Information]: Finish exporting (szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119), time elapsed: 00:00:04.0569171.
+[2020-12-17 10:40:54.1753][5][Information]: ActionBlock SingleThreadedServerTaskExporter for Exchange RanToCompletion
+[2020-12-17 10:40:54.1774][1][Information]: PstWriter.ExitDataContext: SourceId:; errorHappened:False
+[2020-12-17 10:40:54.1774][1][Information]: PstWriter.ExitDataContext: Closing PST session
+[2020-12-17 10:40:54.1921][1][Information]: PstWriter.ExitDataContext: PST session closed
+[2020-12-17 10:40:54.2140][14][Information]: ActionBlock ItemDownloader RanToCompletion
+[2020-12-17 10:40:54.2988][7][Information]: FileSerializedMap.Remove: removing key Exchange from C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.xml
+[2020-12-17 10:40:57.4314][13][Information]: Finish progress controller loop, time elapsed: 00:00:00.0522205.
+[2020-12-17 10:40:57.4314][13][Information]: Finish result recorder loop, time elapsed: 00:00:01.1626462.
+[2020-12-17 10:40:57.4688][1][Information]: TracerScope.Enter: EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5137][1][Information]: TracerScope.Exit (44 ms): EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5157][1][Information]: Finalizing Serialization File: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.relationships.xml
+[2020-12-17 10:40:57.5302][1][Information]: Finalizing Serialization File: C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM\manifest.xml
+[2020-12-17 10:40:57.5328][1][Information]: TracerScope.Enter: EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5328][1][Information]: TracerScope.Exit (0 ms): EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5328][1][Information]: TracerScope.Enter: EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5328][1][Information]: TracerScope.Exit (0 ms): EdrmSerializer.SerializeRelationships
+[2020-12-17 10:40:57.5793][1][Information]: Perf Statistics: max cached content size: 2057199, current cached content size: 0, current cached content count: 0, total memory to GC: 36970848, collection count: 84 7 2, private bytes: 132485120, working set: 160874496, download queue length: 0, download connection count: 0
+[2020-12-17 10:40:57.5833][1][Information]: Working folder cleaned up.
+[2020-12-17 10:40:57.5903][7][Information]: Overall transfer speed: 142.02 KB/second.
+[2020-12-17 10:40:57.5903][7][Information]: Export has completed. Status: Processed.

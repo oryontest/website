@@ -1,0 +1,29 @@
+﻿Export Name,szesheng test_Export
+Export ID,241e3f17-3b0c-437e-51db-08d8a27776a1
+Status,The download completed successfully.
+De-Duplication Enabled,No
+Export Location,C:\Users\ORYON\Downloads\szesheng test_Export\12.17.2020-1609PM
+Remove RMS Protection,NO
+Location with Results,1
+Location that successfully downloaded,1
+Locations that failed to download,0
+
+,Items,Size(GB),Size(Bytes)
+Estimated,13,0.003,"3,209,459"
+Exchange Estimated,13,0.003,"3,209,459"
+Downloaded,13,0.003,"3,209,459"
+
+Item Downloaded Errors,0
+Item Downloaded Warnings,0
+Item Skipped,0
+
+SharePoint folders not downloaded,0
+SharePoint pages not downloaded,0
+SharePoint list items downloaded as Csv files,0
+SharePoint download errors,0
+SharePoint downloaded items,0
+Download Started,17-12-2020 04:09:26 PM
+Download Completed,17-12-2020 04:10:57 PM
+
+Locations,Location name,Custodians,Items,Size(GB),Size(Bytes)
+szesheng.lim@attika.com.sg,"szesheng.lim@attika.com.sg, Primary, 3513ca47-162b-4d68-b848-810aaab73119",szesheng.lim@attika.com.sg,13,0.003,"3,209,459"
